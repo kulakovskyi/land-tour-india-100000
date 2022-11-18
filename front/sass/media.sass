@@ -1,0 +1,583 @@
+@media screen and (min-width: 2000px) and (max-height: 1300px)
+  .bonus
+    &__wrapper
+      transform: scale(1.2)
+
+@media screen and (min-width: 2000px) and (max-height: 1100px)
+  .bonus
+    &__wrapper
+      transform: scale(1.1)
+
+@media screen and (min-width: 2000px) and (max-height: 1020px)
+  .bonus
+    &__wrapper
+      transform: scale(1)
+
+@media screen and (min-width: 2400px)
+  .bonus
+    &__wrapper
+      transform: scale(1.25)
+    &__gates
+      transform-origin: right bottom
+      transform: scale(1.2)
+
+@media screen and (max-width: 1930px) and (max-height: 1000px)
+  .bonus
+    &__wrapper
+      margin-top: -63px
+      transform: scale(0.9)
+    &__gates
+      transform-origin: right bottom
+      transform: scale(0.9)
+
+@media screen and (max-width: 1800px)
+  .bonus
+    &__ball
+      width: 266px
+    &__logo
+      width: 402px
+    &__wrapper
+      transform-origin: bottom center
+      transform: scale(0.9)
+    &__gates
+      transform-origin: right bottom
+      transform: scale(0.9)
+
+@media screen and (max-width: 1800px) and (max-height: 1000px)
+  .bonus
+    &__wrapper
+      transform-origin: center
+      transform: scale(0.8)
+
+@media screen and (max-width: 1800px) and (max-height: 800px)
+  .bonus
+    &__plus1
+      width: 157px
+      height: 156px
+    &__plus2
+      width: 151px
+      height: 103px
+      left: -56px
+      top: 35%
+    &__line
+      transform-origin: bottom left
+      transform: scale(0.8)
+
+
+@media screen and (max-width: 1800px) and (max-height: 850px)
+  .bonus
+    &__wrapper
+      transform-origin: center
+      transform: scale(0.7)
+    &__gates
+      transform: scale(0.8)
+    &__ball
+      height: 200px
+      width: 208px
+
+@media screen and (max-width: 1600px)
+  .bonus
+    &__gates
+      transform: scale(0.8)
+    &__wrapper
+      transform: scale(0.7)
+    &__logo
+      width: 350px
+
+@media screen and (max-width: 1480px)
+  .bonus
+    &__gates
+      transform: scale(0.75)
+    &__line
+      transform-origin: bottom left
+      transform: scale(0.8)
+
+@media screen and (max-width: 1370px) and (max-height: 770px)
+  .bonus
+    &__line
+      transform: scale(0.6)
+    &__wrapper
+      transform: scale(0.6)
+    &__gates
+      transform: scale(0.7)
+    &__plus1
+      width: 119px
+      height: 156px
+    &__plus2
+      width: 124px
+      height: 103px
+      left: -56px
+      top: 37%
+    &__ball
+      height: 147px
+      width: 150px
+    &__logo
+      width: 318px
+
+@media screen and (max-width: 1370px) and (max-height: 690px)
+  .bonus
+    &__wrapper
+      transform: scale(0.57)
+
+@media screen and (max-width: 1300px)
+  .bonus
+    &__logo
+      width: 312px
+
+@media screen and (max-width: 1300px) and (max-height: 615px)
+  .bonus
+    &__wrapper
+      transform: scale(0.54)
+    &__line
+      transform: scale(0.6)
+    &__ball
+      height: 147px
+      width: 150px
+
+@media screen and (max-width: 1260px)
+  .bonus
+    &__wrapper
+      transform: scale(0.55)
+    &__gates
+      transform: scale(0.6)
+    &__line
+      transform: scale(0.6)
+    &__logo
+      width: 251px
+
+@media screen and (max-width: 1260px) and (min-height: 1000px)
+  .bonus
+    &__wrapper
+      transform: scale(0.65)
+      margin-top: -205px
+    &__plus2
+      width: 149px
+      height: 150px
+    &__plus1
+      width: 161px
+      height: 190px
+
+@media screen and (max-width: 1260px) and (orientation: landscape)
+  .bonus
+    &__plus1
+      width: 137px
+      height: 146px
+    &__plus2
+      width: 137px
+      height: 112px
+    &__ball
+      height: 143px
+      width: 162px
+
+/*******************************TABLET****************************/
+
+@media screen and (max-width: 955px) and (orientation: portrait)
+  .bonus
+    padding: 0
+    align-items: center
+    &__wrapper
+      margin: 0
+      transform: scale(1)
+      position: relative
+      z-index: 5
+      margin-top: -250px
+    &__title
+      padding: 28px 20px 26px
+      font-size: 51px
+      line-height: 20px
+      margin: 0 0 20px 0
+      position: static
+      &::before
+        content: none
+        background: none
+    &__cricket
+      position: absolute
+      width: 280px
+      height: 295px
+      background: url("../img/bit-desc.png") no-repeat 50% 0/contain
+      left: 18px
+      bottom: 107px
+      transform: scale(-1, 1) rotate(-10deg)
+      animation: 7s animCricket ease infinite
+    &__line
+      transform: scale(0.55)
+    &__gates
+      transform: scale(0.7)
+    &__plus1
+      width: 120px
+      height: 120px
+      right: 44%
+    &__logo
+      width: 298px
+    &__ball
+      width: 200px
+      height: 200px
+      left: 24%
+      top: auto
+      bottom: 207px
+    &__plus2
+      top: auto
+      bottom: -36px
+      left: 47%
+      animation: none
+      width: 120px
+      height: 120px
+      background: url("../img/plus-all.svg") no-repeat 50% 0/contain
+    &__prize
+      margin: 0 0 30px 0
+      &::before
+        width: 125px
+        height: 48px
+        bottom: -73px
+      &-one
+        max-width: 57px
+      &-zero
+        max-width: 89px
+    &__buttons
+      max-width: 275px
+    &__link
+      width: 100%
+      font-size: 16px
+      line-height: 21px
+      padding: 19px 19px 17px
+      text-align: center
+    &__rules
+      text-align: center
+      width: 100%
+      padding: 12px 12px 10px
+      font-size: 16px
+      line-height: 21px
+
+@media screen and (max-width: 770px) and (orientation: portrait)
+  .bonus
+    &__logo
+      width: 254px
+    &__plus1
+      right: 46%
+    &__plus2
+      left: 44%
+
+/*******************************MOBILE****************************/
+
+@media screen and (max-width: 660px) and (orientation: portrait)
+  .bonus
+    position: relative
+    &__logo
+      right: auto
+      left: 0
+      width: 205px
+      background: url("../img/logo-mob.svg") no-repeat 50% 0/contain
+    &__title
+      font-size: 33px
+      line-height: 13px
+      padding: 20px 15px 18px
+      margin: -170px 0 20px 0
+    &__line
+      background: none
+      display: none
+    &__prize
+      max-width: 340px
+      &::before
+        width: 70px
+        height: 30px
+        bottom: -48px
+      &-one
+        max-width: 38px
+      &-zero
+        max-width: 60px
+    &__wrapper
+      //padding-top: 220px
+      display: flex
+      flex-direction: column
+      justify-content: center
+      align-items: center
+      margin: 0
+      position: static
+      width: 100%
+      height: 100%
+    &__buttons
+      max-width: 100%
+      position: absolute
+      bottom: 0
+      left: 0
+      width: 100%
+      background: #00003D
+      padding: 15px 15px 30px 15px
+    &__link
+      font-size: 18px
+      line-height: 23px
+      padding: 14px 15px 12px
+      margin: 0 0 10px 0
+    &__rules
+      padding: 16px 8px 14px
+      font-size: 14px
+      line-height: 18px
+    &__gates
+      transform: scale(1)
+      right: auto
+      left: -5px
+      bottom: 120px
+      .gates
+        width: 140px
+        height: 140px
+        right: auto
+        left: -10px
+        background: url("../img/gates-mob.svg") no-repeat 50% 0/contain
+        animation: 7s gatesAnim-mob ease infinite
+      .ball
+        background: url("../img/ball-right-mob.png") no-repeat 50% 0/contain
+        width: 97px
+        height: 97px
+        animation: 7s ballAnim-mob ease infinite
+        left: auto
+        right: -36px
+        top: -49px
+    &__plus1
+      width: 90px
+      height: 90px
+      right: auto
+      left: 15px
+      top: 126px
+    &__cricket
+      width: 175px
+      height: 190px
+      transform: scale(1)
+      background: url("../img/bit-nob.png") no-repeat 50% 0/contain
+      animation: 7s animCricket-mob ease infinite
+      bottom: auto
+      left: auto
+      top: 15px
+      z-index: 7
+      right: 23%
+    &__ball
+      width: 125px
+      height: 125px
+      background: url("../img/ball-left-mob.png") no-repeat 50% 0/contain
+      right: 5px
+      top: 5px
+      bottom: auto
+      left: auto
+    &__overlay
+      padding: 0
+      &-wrapper
+        padding: 80px 15px 50px
+        border: none
+        border-top: 8px solid #FF267E
+  .rules
+    &__close
+      top: 30px
+      right: 20px
+      width: 22px
+      height: 22px
+      span
+        width: 22px
+        height: 22px
+        &::before,
+        &::after
+          height: 27px
+          width: 3.2px
+    &__title
+      font-size: 28px
+      line-height: 34px
+      margin: 0 0 35px 0
+    &__item
+      &::before
+        font-size: 14px
+        line-height: 20px
+        width: 24px
+        height: 24px
+    &__text
+      font-family: $font-suisse-med
+      padding-left: 39px
+      font-size: 13px
+      line-height: 22px
+    &__item-list
+      margin: 20px 0 0 0
+      li
+        font-size: 13px
+        line-height: 20px
+        &:not(:last-child)
+          margin: 0 0 11px 0
+
+@media screen and (max-width: 440px) and (orientation: portrait) and (max-height: 700px)
+  .bonus
+    &__cricket
+      width: 136px
+      height: 155px
+    &__ball
+      width: 103px
+      height: 100px
+    &__plus1
+      width: 59px
+      height: 59px
+
+@media screen and (max-width: 440px) and (orientation: portrait) and (min-height: 900px)
+  .bonus
+    &__gates
+      transform: scale(1.2)
+      left: 15px
+
+@media screen and (max-width: 380px) and (orientation: portrait) and (max-height: 600px)
+  .bonus
+    &__buttons
+      padding: 10px 15px
+    &__link
+      font-size: 15px
+      line-height: 19px
+    &__rules
+      font-size: 12px
+      line-height: 13px
+    &__gates
+      bottom: 74px
+      transform-origin: bottom left
+      transform: scale(0.9)
+    &__title
+      margin: -81px 0 10px 0
+      transform: scale(0.9)
+    &__prize
+      transform: scale(0.9)
+    &__cricket
+      width: 115px
+    &__ball
+      width: 80px
+      height: 80px
+
+@media screen and (max-width: 350px) and (orientation: portrait)
+  .bonus
+    &__logo
+      width: 186px
+    &__cricket
+      width: 115px
+    &__ball
+      width: 80px
+      height: 80px
+    &__title
+      margin: -145px 0 5px 0
+      transform: scale(0.85)
+    &__prize
+      transform: scale(0.85)
+
+/*******************************LANDSCAPE****************************/
+
+@media screen and (max-width: 920px) and (max-height: 450px) and (orientation: landscape)
+  .rules
+    &__close
+      top: 30px
+      right: 20px
+      width: 22px
+      height: 22px
+      span
+        width: 22px
+        height: 22px
+        &::before,
+        &::after
+          height: 27px
+          width: 3.2px
+    &__title
+      font-size: 28px
+      line-height: 34px
+      margin: 0 0 35px 0
+    &__item
+      &::before
+        font-size: 14px
+        line-height: 20px
+        width: 24px
+        height: 24px
+    &__text
+      font-family: $font-suisse-med
+      padding-left: 39px
+      font-size: 13px
+      line-height: 22px
+    &__item-list
+      margin: 20px 0 0 0
+      li
+        font-size: 13px
+        line-height: 20px
+        &:not(:last-child)
+          margin: 0 0 11px 0
+  .bonus
+    &__overlay
+      &-wrapper
+        padding: 40px
+    &__line
+      transform: scale(0.3)
+    &__wrapper
+      transform: scale(0.4)
+      z-index: 10
+      position: relative
+    &__gates
+      transform: scale(0.4)
+      .ball
+        background: url("../img/ball-right-mob.png") no-repeat 50% 0/contain
+    &__logo
+      width: 175px
+    &__plus1
+      width: 91px
+      height: 83px
+      top: -55px
+    &__plus2
+      width: 87px
+      height: 66px
+    &__ball
+      top: 1px
+      left: 28px
+      width: 125px
+      height: 125px
+      background: url("../img/ball-left-mob.png") no-repeat 50% 0/contain
+
+@media screen and (max-width: 920px) and (max-height: 385px) and (orientation: landscape)
+  .bonus
+    &__wrapper
+      transform: scale(0.35)
+
+@media screen and (max-width: 920px) and (max-height: 330px) and (orientation: landscape)
+  .bonus
+    &__wrapper
+      transform: scale(0.3)
+    &__gates
+      transform: scale(0.34)
+    &__ball
+      width: 96px
+    &__plus2
+      width: 74px
+    &__plus1
+      width: 72px
+
+@media screen and (max-width: 920px) and (max-height: 300px) and (orientation: landscape)
+  .bonus
+    &__line
+      transform: scale(0.23)
+
+@media screen and (max-width: 740px) and (orientation: landscape)
+  .bonus
+    &__gates
+      transform: scale(0.37)
+    &__wrapper
+      transform: scale(0.35)
+    &__ball
+      width: 107px
+
+@media screen and (max-width: 650px) and (orientation: landscape)
+  .bonus
+    &__wrapper
+      margin-left: 47px
+
+@media screen and (max-width: 690px) and (orientation: landscape) and (max-height: 320px)
+  .bonus
+    &__gates
+      transform: scale(0.32)
+
+@media screen and (max-width: 570px) and (orientation: landscape)
+  .bonus
+    &__wrapper
+      transform: scale(0.3)
+      margin-left: 47px
+    &__ball
+      width: 80px
+    &__plus1
+      width: 76px
+      height: 56px
+      top: -34px
+    &__plus2
+      width: 61px
+      height: 66px

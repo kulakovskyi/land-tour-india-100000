@@ -66,7 +66,6 @@ body
         content: ''
         transform: translate(-50%, -50%) rotate(-45deg)
 
-
   &__title
     font-family: $font-suisse-semb
     font-size: 40px
@@ -110,8 +109,9 @@ body
     letter-spacing: 0.01em
     color: #E8E8E8
     padding-left: 40px
-    margin: 0 0 15px 0
+
   &__item-list
+    margin: 15px 0 0 0
     li
       font-family: $font-suisse-reg
       font-size: 15px
@@ -200,17 +200,18 @@ body
     right: 0
     top: 0
   &__line
+
     position: absolute
     z-index: 3
     width: 468px
     height: 929px
     bottom: 0
-    left: 0
+    left: -10px
     background: url("../img/line.svg") no-repeat 50% 0/contain
   &__gates
     position: absolute
     bottom: -15px
-    right: -20px
+    right: -30px
     z-index: 3
     &-wrap
       position: relative
@@ -240,6 +241,7 @@ body
     background: url("../img/ball-left-desc.png") no-repeat 50% 0/contain
   &__title
     font-family: $font-suisse-med
+    white-space: nowrap
     font-size: 96px
     line-height: 42px
     color: $blue
@@ -330,6 +332,22 @@ body
     &:hover
       text-decoration: none
 
+@keyframes animCricket
+  0%
+    transform: scale(-1, 1) rotate(-10deg)
+  50%
+    transform: scale(-1, 1) rotate(-20deg)
+  100%
+    transform: scale(-1, 1) rotate(-10deg)
+
+@keyframes animCricket-mob
+  0%
+    transform: scale(1) rotate(-10deg)
+  50%
+    transform: scale(1) rotate(0deg)
+  100%
+    transform: scale(1) rotate(-10deg)
+
 @keyframes animPlusTop
   0%
     transform: translateY(-15px)
@@ -379,6 +397,14 @@ body
   100%
     transform: translate(0, 0)
 
+@keyframes gatesAnim-mob
+  0%
+    transform: translate(0, 0)
+  50%
+    transform: translate(15px, -15px)
+  100%
+    transform: translate(0, 0)
+
 @keyframes ballAnim
   0%
     transform: scale(0.9) translate(0, 0)
@@ -387,11 +413,21 @@ body
   100%
     transform: scale(0.9) translate(0, 0)
 
+
+@keyframes ballAnim-mob
+  0%
+    transform: scale(0.8) translate(0, 0)
+  50%
+    transform: scale(0.9) translate(-10px, 10px)
+  100%
+    transform: scale(0.8) translate(0, 0)
+
+
 @keyframes ballLeftAnim
   0%
     transform: rotate(0deg)
   50%
-    transform: rotate(45deg) scale(1.1) translateY(35px)
+    transform: rotate(45deg) scale(1) translateY(35px)
   100%
     transform: rotate(0deg)
 
